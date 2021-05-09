@@ -37,6 +37,6 @@ def Valor_Iva(precio_base, cantidad, porcentaje_actual):
 precio_base = float(input("Ingrese el valor del producto sin incluir impuestos "))
 cantidad    = int(input("Ingrese la cantidad de productos que se esperan vender en el proximo año "))
 porcentaje_actual = int(input("Ingrese el porcentaje de iva que tiene el producto "))
-Total_mas_iva = Valor_Iva(precio_base, cantidad, porcentaje_actual)
+#Total_mas_iva = Valor_Iva(precio_base, cantidad, porcentaje_actual)
 
 print("El valor esperado es de ", Valor_Iva(precio_base, cantidad, porcentaje_actual), "COP")
