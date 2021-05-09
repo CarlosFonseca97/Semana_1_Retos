@@ -75,5 +75,5 @@ Numero_Refrescos_caja = int(input("Ingrese la cantidad de botellas por caja = ")
 Cantidad_Personas = int(input("Ingrese la cantidad de asistentes = "))
 Total_Refrescos = Numero_Refrescos_caja*Cantidad_Cajas
 Total_Refrescos_Por_Persona = (Total_Refrescos // Cantidad_Personas)
-Total_Refrescos_Sobrantes = (Total_Refrescos - (Total_Refrescos_Por_Persona * Cantidad_Personas))
+Total_Refrescos_Sobrantes = (Total_Refrescos % Cantidad_Personas)
 print("La Cantidad de botellas sobrantes es de = ", Total_Refrescos_Sobrantes )
